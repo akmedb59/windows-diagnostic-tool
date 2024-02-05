@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <div className="min-h-screen p-10 md:p-20 relative grid md:grid-cols-2 items-center max-w-[1400px] mx-auto">
       <div className="text-white flex flex-col gap-5 2xl:gap-10 mt-[40px]">
-        <div className="text-6xl font-bold ">
+        <div className="text-4xl py-5 lg:text-6xl font-bold ">
           Revolutionize Customer Service with Chatbot
         </div>
         <Description

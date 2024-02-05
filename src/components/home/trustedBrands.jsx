@@ -26,7 +26,7 @@ const TrustedBrands = () => {
   ];
 
   return (
-    <div className="flex items-start justify-between">
+    <div className="flex items-start justify-between flex-wrap md:flex-nowrap">
       {brands.map((brand) => {
         return (
           <Image
