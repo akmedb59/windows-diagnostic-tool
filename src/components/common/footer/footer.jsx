@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="md:flex items-start justify-between w-full gap-10 text-gray-300">
           <div className="flex flex-col items-start space-y-10 w-full md:w-3/4">
             <div className="text-xl font-extrabold text-white">
-              Logo Lorem
+              WDiagnostics
             </div>
             <div className="text-sm md:mr-20">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi

@@ -3,6 +3,7 @@ import Description from "@/components/common/description";
 import React from "react";
 import TrustedBrands from "./trustedBrands";
 import Image from "next/image";
+import Link from "next/link";
 const HeroSection = () => {
   return (
     <div className="min-h-screen p-10 md:p-20 relative grid md:grid-cols-2 items-center max-w-[1400px] mx-auto">
@@ -16,8 +17,12 @@ const HeroSection = () => {
       voluptatem delectus commodi placeat deserunt odio laudantium, similique
       sapiente."
         />
-
-        <Button button="Get Started" customClass="bg-white text-black w-fit" />
+        <Link href="/chat">
+          <Button
+            button="Get Started"
+            customClass="bg-white text-black w-fit"
+          />
+        </Link>
 
         <div className="mt-5"></div>
         <Description text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iure sed," />
